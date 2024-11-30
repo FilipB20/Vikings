@@ -10,12 +10,9 @@ body{
     margin:30px;
     place-items: center;
     align-items: center;;
-    column-gap: 25%;
+    column-gap: 30%;
 }
 
-.home{
-    border:1000px;
-}
 
 
 .links:active{
