@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Vikings</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles/homepage.css">
-    </head>
-    <body>
-        <!-- Main Background Section -->
-        <section class="background">
-            <h1>VIKINGS</h1>
-            <!-- Navigation -->
-            <section class="topnav">
-                <a class="home links" href="index.html">HOME</a>
-                <a class="characters links" href="pages/characters.html">CHARACTERS</a>
-                <a class="reality links" href="pages/reality.html">SERIES VS REALITY</a>
-                <a class="topmoments links" href="pages/topmoments.html">TOP MOMENTS</a>
-            </section>
-            <!-- Introduction -->
-            <div class="introduction">
-                <img class="ragnarpic" src="images/ragnar.jpg" alt="Ragnar Lodbrok">
-                <p class="aboutvikings">
-                    Vikings is a historical drama television series inspired by the sagas of Ragnar Lodbrok, a Viking who is one of the best-known legendary Norse heroes...
-                </p>
+<head>
+    <title>Vikings</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/homepage.css">
+</head>
+<body>
+    <section class="background">
+        <h1>VIKINGS</h1>
+        <nav class="topnav">
+            <a class="links" href="index.html">HOME</a>
+            <a class="links" href="pages/characters.html">CHARACTERS</a>
+            <a class="links" href="pages/reality.html">SERIES VS REALITY</a>
+        </nav>
+
+        <div class="introduction">
+            <img class="ragnarpic" src="images/ragnar.jpg" alt="Ragnar Lodbrok">
+            <p class="aboutvikings">
+                <strong>Vikings</strong> is a historical drama television series inspired by the sagas of 
+                <strong>Ragnar Lodbrok</strong>, a legendary Norse hero. The series follows his journey 
+                as a farmer who rises to become a Scandinavian king through raids, battles, and alliances. 
+                The show delves into Viking culture, mythology, and historical events with dramatic storytelling.
+            </p>
+        </div>
+
+        <!-- Vikings Trailer Section -->
+        <section class="trailer">
+            <h2>Watch the Vikings Trailer</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/9GgxinPwAGc" 
+                    title="Vikings Trailer" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
-    </body>
+
+        <!-- Viking Moments Photo Gallery -->
+        <section class="photo-gallery">
+            <h2>Iconic Viking Moments</h2>
+            <div class="gallery-grid">
+                <img src="images/vik1.jpeg" alt="Viking battle">
+                <img src="images/vik2.jpg" alt="Ragnar and his warriors">
+                <img src="images/ragnar_travis_fimmel_is_still_in_charge_cr__bernard_walsh___history.jpg" alt="Viking ships">
+                <img src="images/raid.jpg" alt="A Viking raid">
+            </div>
+        </section>
+    </section>
+
+    <!-- Footer with Social Media Links -->
     <footer>
+        <p>Follow Vikings on Social Media:</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/historyvikings" target="_blank">Instagram</a>
+            <a href="https://twitter.com/HistoryVikings" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/Vikings" target="_blank">Facebook</a>
+        </div>
     </footer>
+</body>
 </html>

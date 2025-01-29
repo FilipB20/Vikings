@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.comparison, .culture-comparison, .raids-comparison {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);  /* Add a slight black background with transparency */
+    border-radius: 8px;
+}
+
+.comparison img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description {
+    width: 45%;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Same black semi-transparent background */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.video-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+/* Add a general background to all section content to improve readability */
+.intro, .character-comparison, .culture-comparison, .raids-comparison {
+    background-color: rgba(0, 0, 0, 0.6); /* Darker transparent background for the sections */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.intro p, .character-comparison p, .culture-comparison p, .raids-comparison p {
+    color: white; /* Lighter color text for contrast */
+}
+
+video {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Shadow for the video for better visibility */
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
