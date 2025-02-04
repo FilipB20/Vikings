@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     text-align: center;
 }
 
-/* Navigation Bar */
 .topnav {
     display: flex;
     justify-content: space-around;
@@ -34,7 +32,6 @@ body {
     border-radius: 5px;
 }
 
-/* Page Heading */
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -47,7 +44,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* Characters Container */
 .characters-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -58,7 +54,6 @@ h1 {
     margin: auto;
 }
 
-/* Character Card */
 .character {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
@@ -79,7 +74,6 @@ h1 {
     margin: 10px 0;
 }
 
-/* Character Relationships Section */
 .relationships {
     background: rgba(0, 0, 0, 0.7);
     padding: 40px 20px;
@@ -118,7 +112,6 @@ h1 {
     text-align: left;
 }
 
-/* Footer */
 footer {
     background: black;
     color: white;
@@ -126,7 +119,6 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
-/* General Styling */
 body {
     margin: 0;
     padding: 0;
@@ -139,7 +131,6 @@ body {
     text-align: center;
 }
 
-/* Navigation Bar */
 .topnav {
     display: flex;
     justify-content: space-around;
@@ -162,7 +153,6 @@ body {
     border-radius: 5px;
 }
 
-/* Page Heading */
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -175,7 +165,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* Characters Container */
 .characters-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -186,7 +175,6 @@ h1 {
     margin: auto;
 }
 
-/* Character Card */
 .character {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
@@ -197,5 +185,5 @@ h1 {
 
 .character img {
     width: 100%;
-    
+
 }

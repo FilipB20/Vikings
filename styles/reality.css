@@ -49,7 +49,7 @@ h3 {
     justify-content: space-around;
     margin: 30px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);  /* Add a slight black background with transparency */
+    background-color: rgba(0, 0, 0, 0.5);  /*Malo prozirnosti*/ 
     border-radius: 8px;
 }
 
@@ -62,7 +62,7 @@ h3 {
 .description {
     width: 45%;
     padding-left: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Same black semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 8px;
     padding: 20px;
 }
@@ -79,23 +79,23 @@ footer {
     color: white;
 }
 
-/* Add a general background to all section content to improve readability */
+/* Da promjeni boju pozadine dijelovima jer je pozadinska slika svijetla*/
 .intro, .character-comparison, .culture-comparison, .raids-comparison {
-    background-color: rgba(0, 0, 0, 0.6); /* Darker transparent background for the sections */
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
 }
 
 .intro p, .character-comparison p, .culture-comparison p, .raids-comparison p {
-    color: white; /* Lighter color text for contrast */
+    color: white; 
 }
 
 video {
     width: 80%;
     margin: 20px auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Shadow for the video for better visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 footer p {
